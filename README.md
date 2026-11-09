@@ -1,4 +1,5 @@
 # LED Bar Card
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-FFDD00?logo=buymeacoffee&logoColor=black)](https://www.buymeacoffee.com/boffy35)
 
 A 20-segment LED meter card for Home Assistant dashboards. The segments run from red at the minimum, through orange, to green at the maximum, with a glowing "lit" look for active segments. It has a full visual editor, so no YAML is needed.
 
@@ -95,6 +96,9 @@ grid_options:
 | `reverse_colours` | boolean | `false` | Green at the minimum, red at the maximum |
 
 Values outside the min–max range are clamped, so the bar shows empty or full. Non-numeric states (such as `unavailable`) are shown as text with no segments lit.
+## Support
+
+If you find this card useful, you can [buy me a coffee](https://www.buymeacoffee.com/boffy35). Thank you!
 
 ## Licence
 
