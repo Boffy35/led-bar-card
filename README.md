@@ -22,13 +22,13 @@ Ideal for battery state of charge, tank levels, humidity, signal strength, or an
 
 1. Open **HACS** in Home Assistant.
 2. Open the **⋮** menu (top right) and choose **Custom repositories**.
-3. Add `https://github.com/YOUR_USERNAME/led-bar-card` with the type **Dashboard**.
+3. Add `https://github.com/Boffy35/led-bar-card` with the type **Dashboard**.
 4. Search for **LED Bar Card** in HACS and download it.
 5. Hard-refresh your browser (Ctrl + F5, or Cmd + Shift + R on a Mac).
 
 ### Manual
 
-1. Download `led-bar-card.js` from the [latest release](https://github.com/YOUR_USERNAME/led-bar-card/releases/latest).
+1. Download `led-bar-card.js` from the [latest release](https://github.com/Boffy35/led-bar-card/releases/latest).
 2. Copy it to `/config/www/led-bar-card.js`.
 3. Go to **Settings → Dashboards → ⋮ → Resources → Add resource** and enter:
    - URL: `/local/led-bar-card.js?v=1`
